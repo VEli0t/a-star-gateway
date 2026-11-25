@@ -23,6 +23,11 @@ config/features=PackedStringArray("4.7")
 window/size/viewport_width=800
 window/size/viewport_height=440
 
+[global_group]
+
+drone=""
+player=""
+
 [input]
 
 move_down={

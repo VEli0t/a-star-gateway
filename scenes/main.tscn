@@ -4,6 +4,8 @@
 [ext_resource type="PackedScene" uid="uid://dhvjib51h4csh" path="res://scenes/tile_map_layer.tscn" id="2_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://6xvybtdi7g4m" path="res://scenes/player.tscn" id="3_h2yge"]
 [ext_resource type="PackedScene" uid="uid://cwvc8pdrn8k52" path="res://scenes/enemy.tscn" id="4_1bvp3"]
+[ext_resource type="Script" uid="uid://by010u7230vi" path="res://scripts/drone_swarm.gd" id="5_tefeu"]
+[ext_resource type="PackedScene" uid="uid://0f2budtl162e" path="res://scenes/drone.tscn" id="6_o6xl0"]
 
 [node name="Main" type="Node2D" unique_id=109811415]
 script = ExtResource("1")
@@ -41,3 +43,7 @@ position = Vector2(753, 324)
 [node name="Player" parent="." unique_id=2008213164 instance=ExtResource("3_h2yge")]
 
 [node name="Enemy" parent="." unique_id=1882875128 instance=ExtResource("4_1bvp3")]
+
+[node name="DroneSwarm" type="Node2D" parent="." unique_id=2128065933]
+script = ExtResource("5_tefeu")
+drone_scene = ExtResource("6_o6xl0")
