@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cwvc8pdrn8k52"]
+
+[ext_resource type="Script" uid="uid://ie13xerpqj6p" path="res://scripts/enemy.gd" id="1_md0e3"]
+[ext_resource type="Texture2D" uid="uid://beb7vo7q7t0d5" path="res://assets/taxi.png" id="2_4ra3w"]
+
+[node name="enemy" type="Node2D" unique_id=2008213164]
+script = ExtResource("1_md0e3")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2081200615]
+modulate = Color(0.14044744, 0.14044744, 0.14044744, 1)
+texture_filter = 1
+position = Vector2(-3.8146973e-06, -3.8146973e-06)
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("2_4ra3w")

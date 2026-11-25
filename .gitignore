@@ -1,0 +1,17 @@
+# Cache Godot 4
+.godot/
+.nomedia
+
+# Fichiers temporaires et exports
+*.tmp
+*.tgz
+*.mp4
+*.exe
+*.pck
+*.zip
+export.cfg
+export_credentials.cfg
+
+# Système
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://6xvybtdi7g4m"]
+
+[ext_resource type="Script" uid="uid://b4c54vtl00csm" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="Texture2D" uid="uid://beb7vo7q7t0d5" path="res://assets/taxi.png" id="2_qhqgy"]
+
+[node name="player" type="Node2D" unique_id=2008213164]
+script = ExtResource("1_g2els")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2081200615]
+texture_filter = 1
+position = Vector2(-3.8146973e-06, -3.8146973e-06)
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("2_qhqgy")
